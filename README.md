@@ -218,17 +218,6 @@ Prediction files are written under `prediction_outputs/TADs_reg/{profile}/`, inc
 
 Additional options include `--chroms`, `--pvalue-cutoff` (default: 0.05), `--resolution-kb` (default: 25), and `--validate-only`.
 
-## Results
-
-The following validation metrics are reported for the final `reg_base` model (seed 1001, epoch 22) in `summary.json`:
-
-- **AUPRC:** 0.575
-- **F1 score:** 0.635
-- **Precision:** 0.561
-- **Recall:** 0.730
-- **Soft-label Pearson correlation (*r*):** 0.634
-
-Corresponding manuscript tables and figures will be linked when available.
 
 ## Data Availability
 
