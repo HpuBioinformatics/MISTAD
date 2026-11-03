@@ -130,7 +130,7 @@ python data/run_extract_feature.py
 
 Feature CSV files are generated locally and are not included in the repository.
 
-### S3. Boundary confidence filtering (optional)
+### S3. Boundary confidence filtering
 
 This step uses consensus boundary candidates and protein peak BED files to identify higher-confidence training labels. It is **not needed** when using the supplied labels.
 
